@@ -21,6 +21,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  transition: transform 0.5s ease-in-out;
 }
 .left-slide > div {
   height: 100%;
@@ -42,6 +43,7 @@ body {
   top: 0%;
   left: 35%;
   width: 65%;
+  transition: transform 0.5s ease-in-out;
 }
 .right-slide > div {
   background-repeat: no-repeat;
@@ -52,31 +54,31 @@ body {
 }
 
 button {
-    background-color: #fff;
-    border: none;
-    color: #aaa;
-    font-size: 16px;
-    padding: 15px;
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  font-size: 16px;
+  padding: 15px;
 }
 button:hover {
-    color: #222;
+  color: #222;
 }
 button:focus {
-    outline: none;
+  outline: none;
 }
 .slider-container .action-buttons button {
-    position: absolute;
-    left: 35%;
-    top: 50%;
-    z-index: 100;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
 }
 .slider-container .action-buttons .down-button {
-    transform: translateX(-100%);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .slider-container .action-buttons .up-button {
-    transform: translateY(-100%);
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
